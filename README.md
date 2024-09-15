@@ -1,4 +1,4 @@
-# Challenge 0: Understanding Attention
+# 🚩 Challenge 0: Understanding Attention
 
 ### Introduction
 
