@@ -1,6 +1,6 @@
 # Challenge 0: Understanding Attention
 
-###Introduction
+### Introduction
 
 Welcome to Challenge 1: Understanding Attention! In this challenge, you'll dive deep into the fundamentals of attention mechanisms in neural networks—a core component that has revolutionized natural language processing and machine learning models.
 
