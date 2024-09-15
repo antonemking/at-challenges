@@ -17,12 +17,8 @@ Prepare for more advanced concepts in subsequent challenges.
 
 Before starting this challenge, you should have:
 
-Basic proficiency in Python programming.
-Understanding of fundamental neural network concepts.
-Familiarity with machine learning frameworks like PyTorch or TensorFlow is a plus but not required.
-Getting Started
-1. Open the Google Colab Notebook
-To begin, click the link below to open the interactive notebook on Google Colab:
+- Basic proficiency in Python programming.
+- Understanding of fundamental neural network concepts.
+- Familiarity with machine learning frameworks like PyTorch or TensorFlow is a plus but not required.
 
-
-Note: Replace ![Google Colab](https://colab.research.google.com/) with the actual URL of your Colab notebook.
+Open the Google Colab Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/notebooks/notebook.ipynb) To begin
