@@ -21,4 +21,4 @@ Before starting this challenge, you should have:
 - Understanding of fundamental neural network concepts.
 - Familiarity with machine learning frameworks like PyTorch or TensorFlow is a plus but not required.
 
-Open the Google Colab Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/antonemking/at-challenges/blob/challenge-0/at_sr_challenge0.ipynb) To begin
+Open the Google Colab Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/antonemking/at-challenges/blob/challenge-0/at_sr_challenge0.ipynb?authuser=0&copy=true) To begin
