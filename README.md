@@ -16,14 +16,14 @@ The basic unit is the embedding, which represents the data (e.g., tokens in a se
 💡 Exercise 1: Defining Key Parameters
 In your notebook, define the key parameters for our simplified attention mechanism:
 
-- d_model: The size of the embeddings (number of features per token).
-- seq_len: The number of tokens in a sequence (e.g., words in a sentence).
-- batch_size: The number of sequences processed at once.
+- __d_model__: The size of the embeddings (number of features per token).
+- __seq_len__: The number of tokens in a sequence (e.g., words in a sentence).
+- __batch_size__: The number of sequences processed at once.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antonemking/at-challenges/blob/challenge-0/at_sr_challenge0.ipynb?authuser=0&copy=true&t=latest)
 
 💡 Why do you think we chose d_model = 64?
-__Hint: Think about computational efficiency. Would increasing this value make the model slower or faster? How does it affect the model’s capacity to learn complex patterns?__
+*Hint: Think about computational efficiency. Would increasing this value make the model slower or faster? How does it affect the model’s capacity to learn complex patterns?*
 
 ### Part 2: Generating Queries, Keys, and Values
 
@@ -33,7 +33,7 @@ In your notebook, Let’s generate these matrices for each token in our sequence
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antonemking/at-challenges/blob/challenge-0/at_sr_challenge0.ipynb?authuser=0&copy=true&t=latest)
 
 💡 Why do queries, keys, and values have the same dimensions?
-__Hint: Think about how we use dot products to compare each query with every key.__
+*Hint: Think about how we use dot products to compare each query with every key.*
 
 ### Part 3: Computing Attention Scores
 The next step is to compute attention scores. These scores represent how much focus each token should have on the others. The higher the score, the more focus a token has.
@@ -46,7 +46,7 @@ Let’s compute the attention scores in your notebook
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antonemking/at-challenges/blob/challenge-0/at_sr_challenge0.ipynb?authuser=0&copy=true&t=latest)
 
 💡 The result of the dot product is a matrix of shape (batch_size, seq_len, seq_len). Why?
-__Hint: How many comparisons are made between each query and the keys?__
+*Hint: How many comparisons are made between each query and the keys?*
 
 ### Prerequisites
 
