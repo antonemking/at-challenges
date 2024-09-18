@@ -8,6 +8,23 @@ In this first challenge, we will start from the basics and build our way up towa
 
 Welcome to Challenge 1 of your journey to master "Attention Is All You Need"! 🎮 In this challenge, you will code, experiment, and reason your way through the core building blocks of the attention mechanism. Let’s break it down into smaller, digestible tasks that will help you grasp the heart of the Transformer model.
 
+## Attention Mechanism
+
+The scaled dot-product attention is computed as:
+
+$$
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) V
+$$
+
+Where:
+- \( Q \) is the Queries matrix.
+- \( K \) is the Keys matrix.
+- \( V \) is the Values matrix.
+- \( d_k \) is the dimension of the queries and keys.
+- \( QK^T \) is the dot product between the queries and keys.
+- \( $$\text{softmax} \$$ ) is applied to the scaled dot product.
+
+
 ### Part 1 
 
 We’ll start by understanding the dimensions that make up the attention mechanism.
